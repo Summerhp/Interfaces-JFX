@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=ControllerTelevisor
+comment1.params=
+comment1.target=ControllerTelevisor()
+comment10.params=event
+comment10.target=void\ SubirVolumen(javafx.event.ActionEvent)
+comment11.params=event
+comment11.target=void\ auxiliar(javafx.event.ActionEvent)
+comment12.params=
+comment12.target=void\ initialize()
+comment2.params=event\ mensaje
+comment2.target=void\ mostrarAlertError(javafx.event.ActionEvent,\ java.lang.String)
+comment3.params=
+comment3.target=void\ actualizarGUI()
+comment4.params=event
+comment4.target=void\ Aire(javafx.event.ActionEvent)
+comment5.params=event
+comment5.target=void\ Apgado(javafx.event.ActionEvent)
+comment6.params=event
+comment6.target=void\ AvazarEntrada(javafx.event.ActionEvent)
+comment7.params=event
+comment7.target=void\ BajarVolumen(javafx.event.ActionEvent)
+comment8.params=event
+comment8.target=void\ Cable(javafx.event.ActionEvent)
+comment9.params=event
+comment9.target=void\ RetrocederCanal(javafx.event.ActionEvent)
+numComments=13
