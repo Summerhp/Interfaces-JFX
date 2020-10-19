@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControllerLibro">
+   <children>
+      <TextField fx:id="txtAñoDeEdicion" layoutX="189.0" layoutY="154.0" />
+      <Label fx:id="lblTitulo" layoutX="56.0" layoutY="60.0" text="Titulo" textAlignment="CENTER" />
+      <Label fx:id="lblAutores" layoutX="50.0" layoutY="97.0" text="Autores" textAlignment="CENTER" />
+      <Label fx:id="lblEditorial" layoutX="55.0" layoutY="129.0" text="Editorial" textAlignment="CENTER" />
+      <Label fx:id="lblAñoDeEdicion" layoutX="37.0" layoutY="158.0" text="Año de Edicion" textAlignment="CENTER" />
+      <Label fx:id="lblPrecio" layoutX="61.0" layoutY="192.0" text="Precio" textAlignment="CENTER" />
+      <Label fx:id="lblNumeroDePaginas" layoutX="25.0" layoutY="226.0" text="Numero de Paginas" textAlignment="CENTER" />
+      <Label fx:id="lblNumeroDeCopias" layoutX="27.0" layoutY="257.0" text="Numero de Copias" textAlignment="CENTER" />
+      <Label fx:id="lblNumeroDeCopiasDisponibles" layoutX="10.0" layoutY="290.0" text="Numero de Copias Disponibles" textAlignment="CENTER" />
+      <Label fx:id="lblNumeroDeCopiasPrestadas" layoutX="9.0" layoutY="323.0" text="Numero de Copias Prestadas" textAlignment="CENTER" />
+      <TextField fx:id="txtPrecio" layoutX="189.0" layoutY="188.0" />
+      <TextField fx:id="txtNumeroDePaginas" layoutX="189.0" layoutY="222.0" />
+      <TextField fx:id="txtNumeroDeCopias" layoutX="189.0" layoutY="253.0" />
+      <TextField fx:id="txtNumeroDeCopiasDisponibles" layoutX="189.0" layoutY="286.0" />
+      <TextField fx:id="txtNumeroDeCopiasPrestadas" layoutX="189.0" layoutY="319.0" />
+      <Button fx:id="cmdGuardarCambios" layoutX="16.0" layoutY="354.0" mnemonicParsing="false" onAction="#guardar" prefHeight="32.0" prefWidth="121.0" text="Guardar Cambios" />
+      <TextField fx:id="txtTitulo" layoutX="189.0" layoutY="56.0" />
+      <TextField fx:id="txtAutores" layoutX="189.0" layoutY="93.0" />
+      <TextField fx:id="txtEditorial" layoutX="189.0" layoutY="125.0" />
+      <Text fx:id="lblRegistroDePrestamo" layoutX="50.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Registro de Préstamos y Devolucion  de Libros" wrappingWidth="537.13671875">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Button fx:id="cmdActualizarPantalla" layoutX="146.0" layoutY="355.0" mnemonicParsing="false" onAction="#Actualizar" prefHeight="32.0" prefWidth="128.0" text="Actualizar Pantalla" />
+      <Button fx:id="cmdRegistrarPrestamo" layoutX="284.0" layoutY="355.0" mnemonicParsing="false" onAction="#registrarPrestamo" prefHeight="32.0" prefWidth="128.0" text="Registrar Prestamo" />
+      <Button fx:id="cmdRegistrarDevolucion" layoutX="423.0" layoutY="354.0" mnemonicParsing="false" onAction="#registrarDevolucion" prefHeight="32.0" prefWidth="149.0" text="Regristrar Devolucion" />
+      <ImageView fx:id="imgLibro" fitHeight="298.0" fitWidth="227.0" layoutX="348.0" layoutY="112.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@libroj.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="348.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bilbioteca Eduarco Cote Lamus" wrappingWidth="255.5078125">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>
